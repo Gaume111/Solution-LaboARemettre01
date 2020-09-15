@@ -1,4 +1,4 @@
-// But : …crivez un programme qui prend comme entrÈe un nombre de cinq chiffres
+// But : √âcrivez un programme qui prend comme entr√©e un nombre de cinq chiffres
 // Auteur : Guillaume Lafrance
 // Date : 2020-09-12
 
@@ -18,7 +18,7 @@ void main()
 	
 
 
-
+	// KM : si tu utilises l'√©galit√©, un seul nombre de 5 chiffres sera possible. Il faut donc utiliser l'in√©galit√© < et >
 	if (nb1 == 10000 )
 	{
 		std::cout << nb1 << " Contient 5 nombre ";
@@ -26,7 +26,7 @@ void main()
 
 	else
 	{
-		std::cout << nb1 << " n'est pas composÈ de 5 chiffres ";
+		std::cout << nb1 << " n'est pas compos√© de 5 chiffres ";
 	}
 
 
@@ -35,7 +35,7 @@ void main()
 
 // Le plan de test
 /*
-nb1†		RÈsultat
+nb1¬†		R√©sultat
 10000		Ce nombre contient 5 chiffres
 56			Ce nombre ne contient pas 5 chiffres
 
